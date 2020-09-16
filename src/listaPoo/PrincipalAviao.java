@@ -16,10 +16,12 @@ public class PrincipalAviao {
 		System.out.print("\nNúmero de passageiros no voo: ");
 		aviao1.numeroPassageiros = ler.nextInt();
 		System.out.print("\nUF de saida: ");
-		aviao1.pontoSaida = ler.next();
+		aviao1.pontoSaida = ler.nextLine();
+		ler.nextLine();
 		
 		System.out.print("\nUF de destino: ");
-		aviao1.destinoVoo = ler.next().toUpperCase();
+		aviao1.destinoVoo = ler.nextLine().toUpperCase();
+		ler.nextLine();
 	
 		System.out.print("\nVocê confirma a compra da passagem aérea acima? ");
 		aviao1.conf = ler.next().toUpperCase().charAt(0);

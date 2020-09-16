@@ -24,6 +24,15 @@ public class PrincipalFuncionario {
 			func.trabalhar();
 			
 			
+			System.out.print("\nQuantas hora foram trabalhadas hoje? ");
+			func.cargaHoraria = ler.nextInt();
+			System.out.print("\nValor salário por dia? ");
+			func.salarioFuncionario = ler.nextDouble();
+			System.out.print("\nTotal de horas extras feitas no mês: ");
+			func.horaExtra = ler.nextInt();
+			
+			
+			func.calcularSal();
 			
 		
 			
