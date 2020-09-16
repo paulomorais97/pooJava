@@ -23,10 +23,10 @@ public class PrincipalFuncionario {
 			
 			func.trabalhar();
 			
-			System.out.print("\nQue horas são? ");
-			func.hora = ler.next();
+			
+			
 		
-			func.almocar();
+			
 			
 			
 		
